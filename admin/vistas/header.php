@@ -133,7 +133,7 @@ if (strlen(session_id())<1)
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="usuario.php"><i class="fa fa-circle-o"></i> Equipos</a></li>
+            <li><a href="usuario.php"><i class="fa fa-circle-o"></i> Personas</a></li>
             <li><a href="tipousuario.php"><i class="fa fa-circle-o"></i> Tipo de Equipos</a></li>
           </ul>
       </li>
@@ -141,6 +141,18 @@ if (strlen(session_id())<1)
       <li class="treeview">
           <a href="#">
             <i class="fa fa-folder"></i> <span>Áreas</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="departamento.php"><i class="fa fa-circle-o"></i> Todas las Áreas</a></li>            
+          </ul>
+      </li>
+
+      <li class="treeview">
+          <a href="#">
+            <i class="fa fa-folder"></i> <span>Equipos</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
